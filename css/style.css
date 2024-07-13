@@ -10,12 +10,16 @@
 
 /* selects the header  */
 .header {
+    background-color: #956052;
     position: sticky;
-    height: 120px;
+    height: 110px;
     top: 0px;
     width: 100%;
 
-    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+
+    /* background-color: #FFFFFF; */
 }
 
 /* selects the .nav-container  */
@@ -23,14 +27,24 @@
     display: flex;
     justify-content: space-between;
 
-    width: 75%;
+    border: 1px solid red;
+
+    width: 85%;
 }
 
 /* selects the .nav-list */
 .header .nav-list{
     list-style-type: none;
     display: flex;
-    gap: 50px;
+    /* gap: 50px; */
+}
+
+.nav-list li {
+    margin: 5px;
+}
+
+.nav-list .not-nav{
+    border: 2px solid #902332;        
 }
 
 /* main styling (content of body) */
@@ -44,18 +58,63 @@
 
 /* section-1 section  */
 .welcome{
-    background-image: url("../images/jack-sharp-ShCVvQbQBDk-unsplash.jpg");
-    background-size: 100% 100%;
+    /* background-image: url("../images/jack-sharp-ShCVvQbQBDk-unsplash.jpg"); */
+    /* background-size: 100% 100%; */
     /* background-repeat: no-repeat; */
+
+    background-color: #956052;
     height: 50vh;
     width: 100%;
 
     color: #EEE;
+
+    display: flex;
+    justify-content: center;
+
 }
 
 .welcome-content {
-    width: 75%;
+    width: 85%;
     display: flex;
 
+    align-content: space-around;
     flex-direction: column;
+    border: 1px solid red;
+}
+
+.welcome-content .church-welcome {
+    width: 50%;
+}
+
+.welcome-content button{
+    width: 20%;
+}
+
+
+@media (min-width: 900px) {
+    .nav-container .nav-list{
+        gap: 10px;
+        
+    }
+    .nav-list li{
+        flex-shrink: 1;
+    }
+}
+
+
+@media (max-width: 899px) {
+    .nav-container .nav-list .nav{
+        display: none;
+    }
+
+    .nav-list .not-nav{
+        align-content: center;
+        
+        
+
+    }
+
+    /* .nav-list .nav{
+
+    } */
 }
