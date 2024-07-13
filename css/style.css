@@ -32,8 +32,15 @@
     width: 85%;
 }
 
+.nav-container .logo-container img {
+    border: 1px solid red;
+    height: 80px;
+    margin-top: 10px;
+
+}
+
 /* selects the .nav-list */
-.header .nav-list{
+.header .nav-list {
     list-style-type: none;
     display: flex;
     /* gap: 50px; */
@@ -43,8 +50,8 @@
     margin: 5px;
 }
 
-.nav-list .not-nav{
-    border: 2px solid #902332;        
+.nav-list .not-nav {
+    border: 2px solid #902332;
 }
 
 /* main styling (content of body) */
@@ -57,7 +64,7 @@
 /* SECTION STYLING  */
 
 /* section-1 section  */
-.welcome{
+.welcome {
     /* background-image: url("../images/jack-sharp-ShCVvQbQBDk-unsplash.jpg"); */
     /* background-size: 100% 100%; */
     /* background-repeat: no-repeat; */
@@ -82,37 +89,53 @@
     border: 1px solid red;
 }
 
-.welcome-content .church-welcome {
-    width: 50%;
-}
 
-.welcome-content button{
+
+.welcome-content button {
     width: 20%;
 }
 
 
 @media (min-width: 900px) {
-    .nav-container .nav-list{
+    .nav-container .nav-list {
         gap: 10px;
-        
+
     }
-    .nav-list li{
+
+    .nav-list li {
         flex-shrink: 1;
+    }
+
+    .welcome-content .church-welcome {
+        width: 50%;
     }
 }
 
 
 @media (max-width: 899px) {
-    .nav-container .nav-list .nav{
+
+
+
+    .nav-container .nav-list .nav {
         display: none;
     }
 
-    .nav-list .not-nav{
-        align-content: center;
-        
-        
+    .nav-list .not-nav {
 
+        font-size: 24px;
+        align-self: center;
+        margin-right: 30px;
     }
+
+    .welcome {
+        height: 52vh;
+    }
+
+    .welcome-content .church-welcome {
+        width: 80%;
+    }
+
+
 
     /* .nav-list .nav{
 
