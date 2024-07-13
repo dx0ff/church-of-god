@@ -48,10 +48,15 @@
 
 .nav-list li {
     margin: 5px;
+    align-self: center;
 }
 
 .nav-list .not-nav {
     border: 2px solid #902332;
+}
+
+.nav-list .not-nav {
+    font-size: 24px;
 }
 
 /* main styling (content of body) */
@@ -84,15 +89,18 @@
     width: 85%;
     display: flex;
 
-    align-content: space-around;
+    justify-content: center;
     flex-direction: column;
     border: 1px solid red;
+    gap: 10px;
 }
 
 
 
 .welcome-content button {
     width: 20%;
+    height: 80px;
+
 }
 
 
@@ -106,8 +114,16 @@
         flex-shrink: 1;
     }
 
+    .nav-list .not-nav{
+        font-size: 30px;
+    }
+
     .welcome-content .church-welcome {
         width: 50%;
+    }
+
+    .welcome-content .welcome-message-head{
+        font-size: 40px;
     }
 }
 
@@ -122,18 +138,26 @@
 
     .nav-list .not-nav {
 
-        font-size: 24px;
-        align-self: center;
+        
         margin-right: 30px;
     }
 
     .welcome {
-        height: 52vh;
+        height: 65vh;
     }
 
     .welcome-content .church-welcome {
         width: 80%;
     }
+
+    .welcome .welcome-message-body{
+        width: 90%;
+    }
+
+    .welcome-content button {
+        width: 50%;
+    }
+
 
 
 
