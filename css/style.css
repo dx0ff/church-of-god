@@ -5,4 +5,57 @@
     box-sizing: border-box;
 }
 
+/* HEADER STYLING  */
 
+
+/* selects the header  */
+.header {
+    position: sticky;
+    height: 120px;
+    top: 0px;
+    width: 100%;
+
+    background-color: #FFFFFF;
+}
+
+/* selects the .nav-container  */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+
+    width: 75%;
+}
+
+/* selects the .nav-list */
+.header .nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+/* main styling (content of body) */
+
+.main {
+    width: 100%;
+}
+
+
+/* SECTION STYLING  */
+
+/* section-1 section  */
+.welcome{
+    background-image: url("../images/jack-sharp-ShCVvQbQBDk-unsplash.jpg");
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    height: 50vh;
+    width: 100%;
+
+    color: #EEE;
+}
+
+.welcome-content {
+    width: 75%;
+    display: flex;
+
+    flex-direction: column;
+}
