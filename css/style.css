@@ -115,8 +115,46 @@ img{
     width: 85%;
     height: 140vh;
 
+    justify-content: center;
     align-items: center;
 }
+
+.values-content{
+    display: flex;
+    flex-direction: column;
+
+    border: 4px solid red;  
+    align-items: center;  
+}
+
+.church-values {
+    display: flex;
+    justify-content: space-around;
+}
+
+.church-values .church-icons{
+    width: 20%;
+    border: 1px solid red;
+
+    line-height: 18px;
+}
+
+
+
+.grid-layout {
+    border: 2px solid yellow;
+}
+
+.grid-layout h1{
+    font-size: large;
+}
+
+/* .message-body{
+    width: 200px;
+}
+.values-message-body {
+    /* width: 200px; */
+} */
 
 /* Media Queries Begin */
 
@@ -174,7 +212,7 @@ img{
         width: 50%;
     }
 
-
+    
 
 
     /* .nav-list .nav{
