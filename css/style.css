@@ -154,7 +154,7 @@ img{
 }
 .values-message-body {
     /* width: 200px; */
-} */
+/* } */
 
 /* Media Queries Begin */
 
@@ -212,8 +212,17 @@ img{
         width: 50%;
     }
 
+    .church-values{
+        flex-direction: column;
+        align-items: center;
+    }
     
-
+    .church-values .church-icons{
+        width: 80%;
+        border: 1px solid red;
+    
+        line-height: 18px;
+    }
 
     /* .nav-list .nav{
 
