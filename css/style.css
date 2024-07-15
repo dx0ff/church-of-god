@@ -69,6 +69,11 @@
 /* SECTION STYLING  */
 
 /* section-1 section  */
+
+.section {
+    width: 100%;
+    display: flex;
+}
 .welcome {
     /* background-image: url("../images/jack-sharp-ShCVvQbQBDk-unsplash.jpg"); */
     /* background-size: 100% 100%; */
@@ -76,11 +81,9 @@
 
     background-color: #956052;
     height: 50vh;
-    width: 100%;
+
 
     color: #EEE;
-
-    display: flex;
     justify-content: center;
 
 }
@@ -103,6 +106,9 @@
 
 }
 
+
+
+/* Media Queries Begin */
 
 @media (min-width: 900px) {
     .nav-container .nav-list {
