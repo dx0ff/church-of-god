@@ -4,7 +4,7 @@
 
     box-sizing: border-box;
 
-    border: none !important; 
+    /* border: none !important; for debugging */
 }
 
 img {
@@ -231,7 +231,7 @@ h5 {
 }
 
 .testimonial-card{
-    border: 1px solid red;
+    border: 1px solid rgb(135, 102, 102);
 
     display: flex;
     flex-direction: column;
@@ -251,6 +251,71 @@ h5 {
 
     height: 90%;
 }
+
+
+
+
+/* TEAM STYLING  */
+.team {
+    width: 100%;
+    justify-content: center;
+
+    height: 55vh;
+    
+}
+
+.team-content{
+    width: 85%;
+
+    border: 1px solid blue;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 10px;
+}
+
+.team .heading{
+    margin-bottom: 50px;
+}
+
+.team-content .description-container{
+    margin-top: 40px;
+}
+
+.team-content .pastor-card-container{
+    display: flex;
+    flex-direction: column;
+
+    gap: 5vh;
+}
+
+.team-content .pastor-card{
+    display: flex;
+    flex-direction: column;
+
+    
+
+    align-items: center;
+}
+
+.pastor-card .pastor-message{
+    width: 80%;
+}
+
+/* .team-content .sarah{
+    align-self: flex-start !important;
+
+    border: 1px solid rebeccapurple;
+} */
+
+
+
+
+
 /* .message-body{
     width: 200px;
 }
@@ -362,6 +427,15 @@ h5 {
     .testimonial-card{
 
         height: 50vh;
+    }
+
+
+    /* TEAM  */
+
+    .team {
+    
+        height: 120vh;
+        
     }
     /* .nav-list .nav{
 
