@@ -1,5 +1,5 @@
 # Church of God Website
-<img src="./images/holy-bible.jpg>" />
+<!-- <img src="./images/holy-bible.jpg>" /> -->
 
 Welcome to the Church of God website repository! This project aims to provide an online platform for our church community, where members and visitors can find information, stay updated, and connect with us. Whether you’re a developer, designer, or simply interested in contributing, we invite you to be part of this meaningful project.
 
