@@ -207,7 +207,7 @@ h5 {
 
 /* TESTIMONIALS STYLING */
 
-.testimonials{
+.testimonials {
     flex-direction: column;
     height: 40vh;
 
@@ -217,7 +217,7 @@ h5 {
     background-color: #AEE0F1;
 }
 
-.testimonials .testimonials-content{
+.testimonials .testimonials-content {
     width: 85%;
     border: 1px solid red;
 
@@ -230,7 +230,7 @@ h5 {
     align-items: center;
 }
 
-.testimonial-card{
+.testimonial-card {
     border: 1px solid rgb(135, 102, 102);
 
     display: flex;
@@ -242,11 +242,11 @@ h5 {
     height: 25vh;
 }
 
-.testimonial-card .testimonial{
+.testimonial-card .testimonial {
     width: 80%;
 }
 
-.testimonial-card .church-members img{
+.testimonial-card .church-members img {
     border: 1px solid red;
 
     height: 90%;
@@ -261,10 +261,10 @@ h5 {
     justify-content: center;
 
     height: 55vh;
-    
+
 }
 
-.team-content{
+.team-content {
     width: 85%;
 
     border: 1px solid blue;
@@ -278,32 +278,86 @@ h5 {
     gap: 10px;
 }
 
-.team .heading{
+.team .heading {
     margin-bottom: 50px;
 }
 
-.team-content .description-container{
+.team-content .description-container {
     margin-top: 40px;
 }
 
-.team-content .pastor-card-container{
+.team-content .pastor-card-container {
     display: flex;
     flex-direction: column;
 
     gap: 5vh;
 }
 
-.team-content .pastor-card{
+.team-content .pastor-card {
     display: flex;
     flex-direction: column;
 
-    
+
 
     align-items: center;
 }
 
-.pastor-card .pastor-message{
+.pastor-card .pastor-message {
     width: 80%;
+}
+
+
+
+
+
+/* WHATWEDO  */
+
+.whatwedo {
+    width: 100%;
+    height: 80vh;
+
+    justify-content: center;
+
+    background-color: #8BDFE0;
+}
+
+.whatwedo-content {
+    width: 85%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.whatwedo .description-container {
+    margin-top: 40px;
+}
+
+.whatwedo .event-card {
+    display: flex;
+
+    justify-content: space-around;
+
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+
+.event-card .event-img {
+    width: 20%;
+}
+
+.event-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+.whatwedo-content .whatwedo-message {
+    width: 50%;
+
+    align-self: center;
+
 }
 
 /* .team-content .sarah{
@@ -388,7 +442,7 @@ h5 {
     }
 
     .values {
-        height: 380vh;
+        height: max-content;
     }
 
     .church-values .church-icons {
@@ -419,12 +473,12 @@ h5 {
         width: 100%;
     }
 
-    .testimonials{
+    .testimonials {
         height: 80vh;
     }
 
     /* TESTIMONIAL */
-    .testimonial-card{
+    .testimonial-card {
 
         height: 50vh;
     }
@@ -433,10 +487,33 @@ h5 {
     /* TEAM  */
 
     .team {
-    
-        height: 120vh;
-        
+
+        height: max-content;
+
     }
+
+
+    /* WHATWEDO  */
+    .whatwedo {
+        height: max-content;
+    }
+
+    .whatwedo-content .event-card {
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+    .whatwedo-content .event-img {
+        width: 100%;
+    }
+
+    .whatwedo-content .whatwedo-message {
+        width: 100%;
+    
+        align-self: center;
+    
+    }
+
     /* .nav-list .nav{
 
     } */
