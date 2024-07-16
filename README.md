@@ -25,9 +25,9 @@ Join Us: Information on how to become part of our church family.
 
 ### Getting Started
 
-Clone the Repository: `git clone https://github.com/your-username/church-of-god-website.git`
+Clone the Repository: `git clone git@github.com:dx0ff/church-of-god.git`
 
-Navigate to the Project Directory: `cd church-of-god-website`
+Navigate to the Project Directory: `cd church-of-god`
 
 
 ### Contributing
