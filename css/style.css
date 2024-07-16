@@ -216,7 +216,7 @@ h5 {
 
 
 
-    
+
 }
 
 .testimonials .testimonials-content {
@@ -280,15 +280,15 @@ h5 {
     justify-content: flex-start;
 
     gap: 10px;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .team .heading {
     margin-bottom: 50px;
 }
 
-.team-content .description-container {
-    margin-top: 40px;
-}
 
 .team-content .pastor-card-container {
     display: flex;
@@ -296,7 +296,7 @@ h5 {
 
     gap: 5vh;
 
-    border: 3px solid red !important;
+    /* border: 3px solid red !important; */
     width: 100%;
 }
 
@@ -372,14 +372,53 @@ h5 {
 
 }
 
-/* .team-content .sarah{
-    align-self: flex-start !important;
-
-    border: 1px solid rebeccapurple;
-} */
 
 
+/* SUBSCRIBE  */
 
+.subscribe {
+    width: 100%;
+    height: max-content;
+
+    justify-content: center;
+    
+}
+
+.subscribe-content {
+    width: 85%;
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 5%;
+}
+
+.subscribe-content .form-input input{
+    height: 30px;
+    width: 80%;
+    margin: 3px;
+}
+
+.subscribe-button button{
+    padding: 40px;
+    width: 100%;
+    
+}
+
+.subscribe-button{
+    width: 300px;
+    border: 3.5px solid rgb(79, 79, 98) !important;
+    border-radius: 8px;
+
+    margin-top: 5vh;
+}
+
+
+.subscribe .form-input {
+    margin-top: 5vh;
+}
 
 
 /* .message-body{
@@ -414,16 +453,17 @@ h5 {
     }
 
 
-    .team-content .sarah{
+    .team-content .sarah {
         align-self: flex-start;
         width: 30%;
     }
-    .team-content .david{
+
+    .team-content .david {
         align-self: center;
         width: 30%;
     }
-    
-    .team-content .grace{
+
+    .team-content .grace {
         width: 30%;
         align-self: flex-end;
     }
@@ -515,7 +555,7 @@ h5 {
 
     }
 
-    .team-content .pastor-card{
+    .team-content .pastor-card {
         align-items: center;
     }
 
@@ -540,6 +580,12 @@ h5 {
 
     }
 
+
+    /* SUBSCRIBE  */
+
+    .subscribe-content {
+        height: 45vh;
+    }
     /* .nav-list .nav{
 
     } */
