@@ -170,12 +170,36 @@ h5{
     border: 2px solid yellow;
 
     margin-top: 15vh;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .grid-layout h1{
     font-size: large;
 }
 
+.grid-layout .grid-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid-layout .grid-img{
+    width: 40%;
+}
+
+.grid-img img{
+    width: 100%;
+    height: auto;
+}
+
+.grid-layout .grid-text{
+    width: 50%;
+    align-self: center;
+}
+
+.grid-layout .ministries-message-body {
+    width: 80%;
+}
 /* .message-body{
     width: 200px;
 }
@@ -248,7 +272,7 @@ h5{
     }
 
     .values{
-        height: 300vh;
+        height: 380vh;
     }
     
     .church-values .church-icons{
@@ -258,6 +282,26 @@ h5{
         line-height: 18px;
     }
 
+
+
+    .grid-layout .grid-row {
+        display: flex;
+        justify-content: space-around;
+
+        flex-direction: column;
+    }
+
+    .grid-layout .grid-img{
+        width: 100%;
+    }
+
+    .grid-layout .grid-text{
+        width: 100%;
+    }
+
+    .grid-layout .ministries-message-body {
+        width: 100%;
+    }
     /* .nav-list .nav{
 
     } */
