@@ -119,13 +119,13 @@ h5 {
 .values {
     border: 1px solid yellow;
 
-    height: 140vh;
+    height: max-content;
 
     justify-content: center;
     align-items: flex-start;
 
-    /* position: relative; */
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .values-content {
@@ -207,12 +207,16 @@ h5 {
 
 .testimonials {
     flex-direction: column;
-    height: 40vh;
+    height: max-content;
 
     align-items: center;
     width: 100%;
 
     background-color: #AEE0F1;
+
+
+
+    
 }
 
 .testimonials .testimonials-content {
@@ -224,8 +228,10 @@ h5 {
     display: flex;
     flex-direction: column;
 
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .testimonial-card {
@@ -258,7 +264,7 @@ h5 {
     width: 100%;
     justify-content: center;
 
-    height: 55vh;
+    height: max-content;
 
 }
 
@@ -289,6 +295,9 @@ h5 {
     flex-direction: column;
 
     gap: 5vh;
+
+    border: 3px solid red !important;
+    width: 100%;
 }
 
 .team-content .pastor-card {
@@ -297,8 +306,10 @@ h5 {
 
 
 
-    align-items: center;
+    /* align-items: center; */
 }
+
+
 
 .pastor-card .pastor-message {
     width: 80%;
@@ -312,7 +323,7 @@ h5 {
 
 .whatwedo {
     width: 100%;
-    height: 80vh;
+    height: max-content;
 
     justify-content: center;
 
@@ -326,6 +337,9 @@ h5 {
     flex-direction: column;
     align-items: center;
     border: 1px solid red;
+
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .whatwedo .description-container {
@@ -397,6 +411,21 @@ h5 {
 
     .welcome-content .welcome-message-head {
         font-size: 40px;
+    }
+
+
+    .team-content .sarah{
+        align-self: flex-start;
+        width: 30%;
+    }
+    .team-content .david{
+        align-self: center;
+        width: 30%;
+    }
+    
+    .team-content .grace{
+        width: 30%;
+        align-self: flex-end;
     }
 }
 
@@ -471,10 +500,6 @@ h5 {
         width: 100%;
     }
 
-    .testimonials {
-        height: 80vh;
-    }
-
     /* TESTIMONIAL */
     .testimonial-card {
 
@@ -490,6 +515,9 @@ h5 {
 
     }
 
+    .team-content .pastor-card{
+        align-items: center;
+    }
 
     /* WHATWEDO  */
     .whatwedo {
