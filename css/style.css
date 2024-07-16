@@ -203,6 +203,54 @@ h5 {
     width: 80%;
 }
 
+
+
+/* TESTIMONIALS STYLING */
+
+.testimonials{
+    flex-direction: column;
+    height: 40vh;
+
+    align-items: center;
+    width: 100%;
+
+    background-color: #AEE0F1;
+}
+
+.testimonials .testimonials-content{
+    width: 85%;
+    border: 1px solid red;
+
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-card{
+    border: 1px solid red;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 25vh;
+}
+
+.testimonial-card .testimonial{
+    width: 80%;
+}
+
+.testimonial-card .church-members img{
+    border: 1px solid red;
+
+    height: 90%;
+}
 /* .message-body{
     width: 200px;
 }
@@ -306,6 +354,15 @@ h5 {
         width: 100%;
     }
 
+    .testimonials{
+        height: 80vh;
+    }
+
+    /* TESTIMONIAL */
+    .testimonial-card{
+
+        height: 50vh;
+    }
     /* .nav-list .nav{
 
     } */
