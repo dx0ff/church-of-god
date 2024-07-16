@@ -3,6 +3,8 @@
     margin: 0px;
 
     box-sizing: border-box;
+
+    /* border: none !important; for debugging */
 }
 
 img{
@@ -166,6 +168,8 @@ h5{
 
 .grid-layout {
     border: 2px solid yellow;
+
+    margin-top: 15vh;
 }
 
 .grid-layout h1{
