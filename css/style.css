@@ -63,6 +63,10 @@ h5 {
 
 .nav-list .not-nav {
     font-size: 24px;
+
+    transform: translateY(-5px);
+
+    box-shadow: 7px 4px 7px #705c57;
 }
 
 /* main styling (content of body) */
@@ -391,9 +395,7 @@ h5 {
         margin-left: 50px;
 
         border: 4px double #705c57;
-        transform: translateY(-5px);
 
-        box-shadow: 7px 4px 7px #705c57;
         width: 150px;
 
         display: flex;
