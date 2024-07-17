@@ -383,7 +383,17 @@ h5 {
     }
 
     .nav-list .not-nav {
-        font-size: 30px;
+        font-size: 35px;
+        margin-left: 50px;
+
+        border: 4px double #705c57;
+        transform: translateY(-5px);
+
+        box-shadow: 7px 4px 7px #705c57;
+        width: 150px;
+
+        display: flex;
+        justify-content: center;
     }
 
     .welcome-content .church-welcome {
@@ -423,12 +433,36 @@ h5 {
     /* ANIMATION FOR WIDER SCREEN (DESKTOP + IPAD) */
     /* HOLD ON LET ME REFACTOR MY CSS STYLES TO IMPROVE READABILITY AND CODE RE-USABILITY, VERY IMPORTANT  */
 
+    /* DONE REFACTOR, LETS DO SOME ANIMATION */
+
+    .header:hover{
+
+        font-size: larger;
+        transform: translateY(-5px);
+
+        box-shadow: 0px 8px 8px #1f1917;
+    }
+
+    .nav-list .nav:hover{
+        padding: 4px;
+        border: 2px solid #705c57;
+    }
+
+    .header:hover .nav-list{
+        gap: 11px;
+    }
 
 
 
 
 }
 
+
+@media (min-width: 900px ) and (max-width: 1500px) {
+    .welcome-content .church-welcome {
+        width: 80%;
+    }
+}
 
 @media (max-width: 899px) {
 
@@ -448,9 +482,6 @@ h5 {
         height: 65vh;
     }
 
-    .welcome-content .church-welcome {
-        width: 80%;
-    }
 
     .welcome .welcome-message-body {
         width: 90%;
