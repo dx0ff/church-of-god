@@ -27,6 +27,8 @@ h5 {
     display: flex;
     justify-content: center;
 
+    color: #EEE;
+
     /* background-color: #FFFFFF; */
 }
 
@@ -461,6 +463,11 @@ h5 {
 @media (min-width: 900px ) and (max-width: 1500px) {
     .welcome-content .church-welcome {
         width: 80%;
+    }
+
+    .welcome-content button {
+        width: 40%
+    
     }
 }
 
