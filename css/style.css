@@ -3,6 +3,8 @@
     margin: 0px;
 
     box-sizing: border-box;
+
+    transition: all ease-in-out 250ms;
 }
 
 img {
@@ -587,4 +589,20 @@ h5 {
     /* .nav-list .nav{
 
     } */
+}
+
+
+
+/* GENERAL ANIMATION  */
+
+.welcome-content button:hover{
+    font-size: 15px;
+
+}
+
+.section:hover{
+    .description{
+        font-size: 14px;
+        margin-bottom: 4%;
+    }
 }
