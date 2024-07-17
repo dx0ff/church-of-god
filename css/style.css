@@ -4,7 +4,7 @@
 
     box-sizing: border-box;
 
-    border: none !important;
+    /* border: none !important; for debuggin */
 }
 
 img {
@@ -125,7 +125,7 @@ h5 {
     align-items: flex-start;
 
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .values-content {
@@ -339,7 +339,7 @@ h5 {
     border: 1px solid red;
 
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .whatwedo .description-container {
@@ -381,7 +381,7 @@ h5 {
     height: max-content;
 
     justify-content: center;
-    
+
 }
 
 .subscribe-content {
@@ -391,23 +391,25 @@ h5 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     margin-top: 5%;
+
+    border: 2px solid salmon;
 }
 
-.subscribe-content .form-input input{
+.subscribe-content .form-input input {
     height: 30px;
-    width: 80%;
+    width: 90%;
     margin: 3px;
 }
 
-.subscribe-button button{
-    padding: 40px;
+.subscribe-button button {
+    padding: 30px;
     width: 100%;
-    
+
 }
 
-.subscribe-button{
+.subscribe-button {
     width: 300px;
     border: 3.5px solid rgb(79, 79, 98) !important;
     border-radius: 8px;
@@ -466,6 +468,10 @@ h5 {
     .team-content .grace {
         width: 30%;
         align-self: flex-end;
+    }
+
+    .subscribe-button {
+        width: 500px;
     }
 }
 
@@ -586,6 +592,7 @@ h5 {
     .subscribe-content {
         height: 45vh;
     }
+
     /* .nav-list .nav{
 
     } */
